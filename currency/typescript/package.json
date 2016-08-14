@@ -1,0 +1,43 @@
+{
+  "name": "api-standardization-date-typescript",
+  "version": "1.0.0",
+  "description": "This library provide a way to consume and provide dates in an api standard way in typescript ",
+  "main": "index.js",
+  "files": [
+    "dist/"
+  ],
+  "watch": {
+    "test": {
+      "patterns": [
+        "src",
+        "test"
+      ],
+      "extensions": "ts"
+    }
+  },
+  "scripts": {
+    "lint": "# tslint \"src/**/*.ts\"",
+    "typings": "typings",
+    "preinstall": "typings install",
+    "build": "rm -rf dist/ && tsc",
+    "debug": "node --debug-brk  dist/index.js",
+    "rn": "node dist/index.js ",
+    "test": "tsc && mocha dist/test/*.js",
+    "watch": "npm-watch"
+  },
+  "keywords": [
+    "api-standardization",
+    "typescript",
+    "date"
+  ],
+  "author": "Phil Tomlinson",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "typescript": "^1.8.9",
+    "typings": "^0.7.9"
+  },
+  "dependencies": {
+    "moment": "^2.14.1"
+  }
+}

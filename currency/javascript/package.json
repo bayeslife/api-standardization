@@ -1,0 +1,26 @@
+{
+  "name": "api-standardization",
+  "version": "1.0.0",
+  "description": "Package for converting from Date",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^3.0.1",
+    "moment": "^2.14.1"
+  },
+  "watch": {
+    "test": "*.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "API",
+    "Standards",
+    "Date",
+    "DateTime",
+    "Currency"
+  ],
+  "author": "phil@xceptionale.com",
+  "license": "ISC"
+}
