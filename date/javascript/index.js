@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import moment = require('moment')
+var  moment = require('moment')
 
 
 function propertyAsDate(date_string){

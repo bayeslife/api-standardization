@@ -19,8 +19,7 @@ namespace UnitTests
             DateTime dt = DateTime.Parse(date_property); 
             
             DateTime dt2 = date_helper.propertyToDate(date_property);
-            
-            
+                       
             Assert.Equal(0,dt2.Hour);
             Assert.Equal(0,dt2.Minute);
             Assert.Equal(0,dt2.Second);   
